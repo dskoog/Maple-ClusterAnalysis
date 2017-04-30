@@ -1,0 +1,6 @@
+*.mw linguist-language=Maple
+*.mm linguist-language=Maple
+*.md linguist-language=Maple
+*.mpl linguist-language=Maple
+*.help linguist-language=Maple
+*.mla linguist-language=Maple
