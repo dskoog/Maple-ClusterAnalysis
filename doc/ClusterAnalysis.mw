@@ -141,7 +141,7 @@
 </Input>
 </Group></Presentation-Block></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="2"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1240" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Hyperlink linktarget="https://github.com/dskoog/ClusterAnalysis" hyperlink="true"><Font style="Hyperlink">https://github.com/dskoog/ClusterAnalysis</Font></Hyperlink></Text-field>
+<Input><Text-field style="Text" layout="Normal"><Hyperlink linktarget="https://github.com/dskoog/Maple-ClusterAnalysis" hyperlink="true"><Font style="Hyperlink">https://github.com/dskoog/Maple-ClusterAnalysis</Font></Hyperlink></Text-field>
 </Input>
 </Group></Presentation-Block></Table-Cell></Table-Row><Table-Row align="top" separator="true"><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="1"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1241" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -149,7 +149,7 @@
 </Input>
 </Group></Presentation-Block></Table-Cell><Table-Cell padding="5" visible="true" fillcolor="[255,255,255]" rowspan="1" backgroundstyle="0" columnspan="2"><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L1242" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Hyperlink linktarget="https://github.com/dskoog/ClusterAnalysis/issues" hyperlink="true"><Font style="Hyperlink">https://github.com/dskoog/ClusterAnalysis/issues</Font></Hyperlink></Text-field>
+<Input><Text-field style="Text" layout="Normal"><Hyperlink linktarget="https://github.com/dskoog/Maple-ClusterAnalysis/issues" hyperlink="true"><Font style="Hyperlink">https://github.com/dskoog/Maple-ClusterAnalysis/issues</Font></Hyperlink></Text-field>
 </Input>
 </Group></Presentation-Block></Table-Cell></Table-Row></Table>
 <Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Description</Text-field></Title><Presentation-Block>
@@ -177,7 +177,7 @@
 </Input>
 </Group></Presentation-Block><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
 </Input>
 </Group></Presentation-Block>
 </Worksheet>
