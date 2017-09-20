@@ -56,7 +56,7 @@ ClusterPlot := proc( X::{rtable,DataFrame,record}, # n x 2 data set
 		ldatasplit := Array(1..numdf);
 		for i to numdf do
 			ldatasplit(i) := ldata[i];
-			p1(i) := MVEE(ldatasplit[i][..,1..2], 'showplot', 'color' = plots:-setcolors()[i], _rest);
+			p1(i) := MVEE(ldatasplit[i][..,1..2], 'output' = 'plot', 'color' = plots:-setcolors()[i], _rest);
 		end do;
 	else
 		p1 := [NULL];
