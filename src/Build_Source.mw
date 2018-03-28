@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Worksheet>
-<Version major="2017" minor="0"/>
+<Version major="2018" minor="0"/>
 <Label-Scheme value="2" prefix=""/>
-<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
 </View-Properties>
-<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="900" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="900" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
 <Styles>
 <Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="DejaVu Sans" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
 <Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
@@ -127,33 +127,33 @@
 </Input>
 </Group>
 <Group hide-output="false" labelreference="L4195" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis&quot;, &quot;doc/ClusterAnalysis.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;Overview&quot;] ):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis&quot;, &quot;../doc/ClusterAnalysis.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;Overview&quot;], showhelp = false ):</Text-field>
 </Input>
 </Group>
 <Group hide-output="false" labelreference="L4196" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/ClusterPlot&quot;, &quot;doc/ClusterPlot.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;ClusterPlot&quot;] ):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/ClusterPlot&quot;, &quot;../doc/ClusterPlot.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;ClusterPlot&quot;], showhelp = false ):</Text-field>
 </Input>
 </Group>
 <Group hide-output="false" labelreference="L4197" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/ConfusionMatrix&quot;, &quot;doc/ConfusionMatrix.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;ConfusionMatrix&quot;] ):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/ConfusionMatrix&quot;, &quot;../doc/ConfusionMatrix.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;ConfusionMatrix&quot;], showhelp = false ):</Text-field>
 </Input>
 </Group>
 <Group hide-output="false" labelreference="L4198" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/ConfusionTable&quot;, &quot;doc/ConfusionTable.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;ConfusionTable&quot;] ):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/ConfusionTable&quot;, &quot;../doc/ConfusionTable.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;ConfusionTable&quot;], showhelp = false ):</Text-field>
 </Input>
 </Group>
 <Group hide-output="false" labelreference="L4199" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/KMeans&quot;, &quot;doc/KMeans.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;KMeans&quot;] ):</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">makehelp( &quot;ClusterAnalysis/KMeans&quot;, &quot;../doc/KMeans.mw&quot;, &quot;ClusterAnalysis.help&quot;, browser = [&quot;ClusterAnalysis&quot;,&quot;KMeans&quot;], showhelp = false ):</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L4200" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field style="Text" layout="Normal"><Font bold="true">Build package workbook:</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-Create(&quot;ClusterAnalysis.maple&quot;,
     &quot;ClusterAnalysis.mla&quot;,
-    &quot;Overview&quot; = &quot;doc/ClusterAnalysis.mw&quot;,
-    &quot;/doc/ClusterPlot.mw&quot; = &quot;doc/ClusterPlot.mw&quot;,
-    &quot;/doc/ConfusionMatrix.mw&quot; = &quot;doc/ConfusionMatrix.mw&quot;,
-    &quot;/doc/ConfusionTable.mw&quot; = &quot;doc/ConfusionTable.mw&quot;,
-    &quot;/doc/KMeans.mw&quot; = &quot;doc/KMeans.mw&quot;, 
+    &quot;Overview&quot; = &quot;../doc/ClusterAnalysis.mw&quot;,
+    &quot;/doc/ClusterPlot.mw&quot; = &quot;../doc/ClusterPlot.mw&quot;,
+    &quot;/doc/ConfusionMatrix.mw&quot; = &quot;../doc/ConfusionMatrix.mw&quot;,
+    &quot;/doc/ConfusionTable.mw&quot; = &quot;../doc/ConfusionTable.mw&quot;,
+    &quot;/doc/KMeans.mw&quot; = &quot;../doc/KMeans.mw&quot;, 
     &quot;/lib/ClusterAnalysis.mpl&quot; = &quot;ClusterAnalysis.mpl&quot;,
     &quot;/lib/ClusterAnalysis.help&quot; = &quot;ClusterAnalysis.help&quot;,
     &quot;/lib/ClusterPlot.mm&quot; = &quot;ClusterPlot.mm&quot;,
@@ -161,7 +161,7 @@
     &quot;/lib/KMeans.mm&quot; = &quot;KMeans.mm&quot;,
     &quot;/lib/MVEE.mm&quot; = &quot;MVEE.mm&quot;,
     &quot;/lib/BuildSource&quot; = &quot;Build_Source.mw&quot;,
-    &quot;/Images/icon.png&quot; = &quot;icon.png&quot;
+    &quot;/Images/icon.png&quot; = &quot;../Images/icon.png&quot;
 );</Text-field>
 </Input>
 <Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkjbXNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2I1E2Q2x1c3RlckFuYWx5c2lzLm1hcGxlRic=">UTZDbHVzdGVyQW5hbHlzaXMubWFwbGU2Ig==</Equation></Text-field>
@@ -179,12 +179,24 @@
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;ClusterAnalysis.maple&quot;, &quot;description&quot;, &quot;The ClusterAnalysis<Font encoding="UTF-8"> package is a collection of commands for cluster analysis.\134n</Font>Cluster analysis is a common technique for statistical data analysis and one of the main tasks of exploratory data mining. Also known as clustering, involves grouping a set of objects so that objects in the same group (cluster) are more similar to each other than to those in other groups (clusters).&quot;):</Text-field>
 </Input>
 </Group>
-<Group labelreference="L4210" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;this://&quot;,&quot;X-CloudId&quot;,&quot;5629844458045440&quot;);</Text-field>
+<Group hide-input="false" labelreference="L4210" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;ClusterAnalysis.maple&quot;,&quot;X-CloudId&quot;,&quot;5629844458045440&quot;):</Text-field>
 </Input>
 </Group>
-<Group labelreference="L4211" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;this://&quot;,&quot;X-CloudXId&quot;,&quot;137258&quot;);</Text-field>
+<Group hide-input="false" labelreference="L4211" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;ClusterAnalysis.maple&quot;,&quot;X-CloudXId&quot;,&quot;137258&quot;):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L4341" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;ClusterAnalysis.maple&quot;,&quot;X-CloudGroup&quot;,&quot;packages&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4342" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PackageTools:-SetProperty(&quot;ClusterAnalysis.maple&quot;,&quot;X-CloudURL&quot;,&quot;https://maple.cloud&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4343" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group><Presentation-Block>
 <Group view="presentation" inline-output="false" labelreference="L4209" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">

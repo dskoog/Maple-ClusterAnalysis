@@ -1,7 +1,7 @@
 ClusterPlot := proc( X::{rtable,DataFrame,record}, # n x 2 data set
 					{center::listlist:=NULL},						
 					{cluster::{rtable,list,DataSeries}:=NULL},  
-					{style::identical(convexhull, line, ellipse, none) := 'convexhull'}
+					{style::identical(convexhull, line, ellipse, voronoi, none) := 'convexhull'}
 					)
 	local datawcluster, diffvalues, i, lcenter, ldata, ldatasplit, metadata, numdf, p1;
 
@@ -58,6 +58,11 @@ ClusterPlot := proc( X::{rtable,DataFrame,record}, # n x 2 data set
 			ldatasplit(i) := ldata[i];
 			p1(i) := MVEE(ldatasplit[i][..,1..2], 'output' = 'plot', 'color' = plots:-setcolors()[i], _rest);
 		end do;
+	elif style = voronoi then
+		if lcenter = NULL then
+			error("values for center required with style = voronoi");
+		end if;
+		p1 := [ComputationalGeometry:-VoronoiDiagram(lcenter, 'colorregions' = 'false', _rest)];
 	else
 		p1 := [NULL];
 	end if;
